@@ -1,0 +1,105 @@
+*{
+    margin: 10;
+}
+h1{
+    text-align: center;
+}
+.daftar-makanan{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+.daftar-1{
+    background-color: crimson;
+    color: #fff;
+    font-size: 20px;
+    width: 50vh;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.hari-1{
+    list-style: none;
+}
+.daftar-2{
+    background-color: rgb(38, 146, 146);
+    color: #fff;
+    font-size: 20px;
+    width: 50vh;
+    margin-top: 20px;
+}
+.hari-2{
+    list-style: none;
+}
+.daftar-3{
+    background-color: rgb(197, 197, 8);
+    color: #fff;
+    font-size: 20px;
+    width: 50vh;
+    margin-top: 20px;
+}
+.hari-3{
+    list-style: none;
+}
+.daftar-4{
+    background-color: green;
+    color: #fff;
+    width: 50vh;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.hari-4{
+    list-style: none;
+}
+.daftar-5{
+    background-color: rgb(46, 3, 110);
+    color: #fff;
+    width: 50vh;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.hari-5{
+    list-style: none;
+}
+.daftar-6{
+    background-color: rgb(23, 112, 50);
+    color: #fff;
+    width: 50vh;
+    font-size: 20px;
+}
+.hari-6{
+    list-style: none;
+}
+.daftar-7{
+    background-color: rgb(255, 102, 0);
+    color: #fff;
+    width: 50vh;
+    font-size: 20px;
+}
+.hari-7{
+    list-style: none;
+}
+.table1 {
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #f2f5f7;
+}
+.table1 tr th{
+    background: #35A9DB;
+    color: #fff;
+    font-weight: normal;
+    height: 30px;
+}
+.table1, th, td {
+    padding: 8px 20px;
+    text-align: center;
+}
+.table1 tr:hover {
+    background-color: #c6c6c6;
+}
+.table1 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
