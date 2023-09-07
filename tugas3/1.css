@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: rgb(37, 20, 220);
+    font-size: 50px;
+}
+.main{
+    margin: 50px auto;
+    border: 2px solid grey;
+    width: 200vh;
+    height: auto;
+}
+.header{
+    margin: 10px 0 5px 10px;
+}
+.dotted{
+    border-bottom: 10px dotted #000;
+    margin: 5px 5px 5px 10px;
+}
+.content h2{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: rgb(80, 80, 80);
+}
+.content p{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    text-align: justify;
+}
+.contact{
+    margin-top: 20px;
+}  
+.contact h2{
+    color: #000;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contact .about{
+    border: 10px solid #26b498;
+    background-color: blue;
+}
+.contact ul{
+    margin: 20px;
+}
+.contact ul li{
+    list-style: none;
+    
+}
+.contact ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.contact ul li a:hover{
+    color: #bebebe;
+}
