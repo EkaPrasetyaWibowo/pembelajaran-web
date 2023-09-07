@@ -8,6 +8,7 @@ h1{
 }
 hr{
     width: 190vh;
+    margin-left: 15px;
 }
 .main{
     margin: 50px auto;
